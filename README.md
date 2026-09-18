@@ -19,3 +19,13 @@ Cloudflare Pages에서 다음과 같이 설정하면 됩니다.
 npm run build
 npm run preview
 ```
+
+## 테스트
+```bash
+npm test
+```
+
+## 문의 폼
+`Contact us` 폼은 Cloudflare Turnstile을 거쳐 Pages Function(`functions/api/contact.js`)이 검증한 뒤에만
+Google Apps Script 메일러로 전달합니다. 필요한 변수/시크릿과 Apps Script 재배포 절차는
+[docs/contact-form.md](docs/contact-form.md)를 참고하세요.

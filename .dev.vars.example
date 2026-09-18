@@ -1,0 +1,8 @@
+# Copy to .dev.vars for `npm run dev`. Never commit .dev.vars.
+# Cloudflare Turnstile testing secret (always passes). The build injects the matching
+# testing site key when TURNSTILE_SITE_KEY is unset.
+TURNSTILE_SECRET_KEY=1x0000000000000000000000000000000AA
+# Where validated submissions are forwarded (Apps Script /exec URL in production).
+CONTACT_FORWARD_URL=http://127.0.0.1:8799/exec
+# Optional shared secret checked by doPost (see docs/contact-form.md).
+# CONTACT_FORWARD_TOKEN=change-me
