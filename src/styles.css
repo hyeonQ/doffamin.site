@@ -326,6 +326,36 @@ h1 {
   text-align: center;
 }
 
+.business-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px 16px;
+  margin: 0 0 12px;
+  font-size: 0.85rem;
+}
+
+.business-info div {
+  display: flex;
+  gap: 6px;
+}
+
+.business-info dt {
+  opacity: 0.7;
+}
+
+.business-info dd {
+  margin: 0;
+}
+
+.business-info a {
+  color: inherit;
+}
+
+.footer p {
+  margin: 0;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(30px);
